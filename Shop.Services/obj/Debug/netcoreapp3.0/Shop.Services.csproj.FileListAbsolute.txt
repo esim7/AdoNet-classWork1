@@ -1,0 +1,4 @@
+C:\Users\МакишевЕ\source\repos\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.ServicesAbstract.dll
+C:\Users\МакишевЕ\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.csprojAssemblyReference.cache
+C:\Users\МакишевЕ\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfoInputs.cache
+C:\Users\МакишевЕ\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfo.cs

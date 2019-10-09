@@ -1,0 +1,11 @@
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.exe
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.deps.json
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.runtimeconfig.json
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.runtimeconfig.dev.json
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.dll
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\bin\Debug\netcoreapp3.0\Shop.UI.pdb
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\obj\Debug\netcoreapp3.0\Shop.UI.csprojAssemblyReference.cache
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\obj\Debug\netcoreapp3.0\Shop.UI.AssemblyInfoInputs.cache
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\obj\Debug\netcoreapp3.0\Shop.UI.AssemblyInfo.cs
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\obj\Debug\netcoreapp3.0\Shop.UI.dll
+C:\Users\МакишевЕ\source\repos\Shop\Shop.UI\obj\Debug\netcoreapp3.0\Shop.UI.pdb
