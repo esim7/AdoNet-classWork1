@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Shop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Domain/Shop.Domain.csproj",
+      "msbuildProject": "../Shop.Domain/Shop.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Shop.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\МакишевЕ\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+              "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

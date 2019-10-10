@@ -8,6 +8,6 @@ namespace Shop.Domain
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public DateTime CreationDate { get; set; } = DateTime.Now;
-        public DateTime? DeletedDay { get; set; }
+        public DateTime? DeletedDate { get; set; }
     }
 }

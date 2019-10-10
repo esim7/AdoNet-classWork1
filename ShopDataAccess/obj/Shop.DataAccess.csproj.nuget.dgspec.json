@@ -4,14 +4,70 @@
     "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj": {
+    "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\Shop.DataAccessAbstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj",
-        "projectName": "Shop.DataAccess",
-        "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\Shop.DataAccessAbstract.csproj",
+        "projectName": "Shop.DataAccessAbstract",
+        "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\Shop.DataAccessAbstract.csproj",
         "packagesPath": "C:\\Users\\МакишевЕ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\obj\\",
+        "outputPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\МакишевЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectName": "Shop.Domain",
+        "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "packagesPath": "C:\\Users\\МакишевЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\МакишевЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +93,68 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj",
+        "projectName": "Shop.DataAccess",
+        "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\Shop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\МакишевЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\ShopDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\МакишевЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\Shop.DataAccessAbstract.csproj": {
+                "projectPath": "C:\\Users\\МакишевЕ\\source\\repos\\Shop\\Shop.DataAccessAbstract\\Shop.DataAccessAbstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

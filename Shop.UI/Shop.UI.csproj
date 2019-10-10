@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.DataAccessAbstract\Shop.DataAccessAbstract.csproj" />
+    <ProjectReference Include="..\Shop.Domain\Shop.Domain.csproj" />
+    <ProjectReference Include="..\ShopDataAccess\Shop.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
